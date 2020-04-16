@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Nous contacter </title>
+        <link rel="icon" type="image/png" href="..\MEDIAS\kiwi.png"/>
+        <link rel="stylesheet" type="text/css" href="..\STYLE\kiwi.css"/>
+    </head>
+    <body>
+        <div class="header" id="#">
+            <h1>
+                <img src="..\MEDIAS\kiwi.png" class="icon">Nous contacter 
+            </h1>
+            <table>
+                <tr>
+                    <td>
+                        <a href="..\index.html">
+                            <button class="menu">Accueil </button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="obtention.html">
+                            <button class="menu">Obtenir votre carte kiwi </button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="team.html">
+                            <button class="menu">L'équipe </button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="contact.html">
+                            <button class="menu">Nous contacter </button>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="body">
+            <br class="br"/>
+            <br>
+            <fieldset>
+                <legend style="font-size: 26px;">Veuillez remplir ce formulaire afin de nous contacter </legend>
+                <form action="mailto:quentin.aniere@gmail.com;pistoletcalixte@gmail.com" method="post" enctype="text/plain">
+                    <label>Nom et Prénom : </label>
+                    <input type="text" name="Nom et Prenom" value="Patrick ?" id="nompre" onfocus="fx30()" onblur="fx31()" required>
+                    <br>
+                    <label>Sujet de votre question : </label>
+                    <input type="text" id="sujet" value="Un bug ?" name="Sujet" onfocus="fx40()" onblur="fx41()" required>
+                    <br>
+                    <label>
+                        Votre question : <br>
+                    </label>
+                    <textarea id="QUESTION" name="Question " rows="7" cols="40"></textarea>
+                    <br>
+                    <img id="ph" src="../MEDIAS/empty.png">
+                    <input type="checkbox" required>
+                    <label>En cochant cette case, vous certifiez que vos informations sont exactes. </label> 
+                    <button style="opacity: 0;" onclick="er()" !> Ceci est un secret !</button> <br>
+                    <input type="submit" class="submit" value=" Envoyer le formulaire ">
+                    <i>- Ce formulaire va mettre en forme un mail afin de vous faciliter l'envoi. </i>
+                </form>
+            </fieldset>
+            <br>
+        </div>
+        <div class="footer">
+            <table class="table">
+                <tr>
+                    <td>
+                        <a href="policies.html">
+                            <p class="p">Notre politique de confidentialité </p>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <p class="p">Haut de la page </p>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <audio id="audio">
+                <source src="..\MEDIAS\er.mp3" type="audio/mp3">
+                <source src="..\MEDIAS\er.ogg" type="audio/ogg">
+        </audio>
+        <script type="text/javascript" src="..\SCRIPT\kiwi.js"></script>
+    </body>
+</html>

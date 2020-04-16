@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Obtention </title>
+        <link rel="icon" type="image/png" href="..\MEDIAS\kiwi.png"/>
+        <link rel="stylesheet" type="text/css" href="..\STYLE\kiwi.css"/>
+    </head>
+    <body onkeydown="detection()">
+        <div class="header" id="#">
+            <h1>
+                <img src="..\MEDIAS\kiwi.png" class="icon">Obtenir votre carte kiwi 
+            </h1>
+            <table>
+                <tr>
+                    <td>
+                        <a href="..\index.html">
+                            <button class="menu">Accueil </button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="obtention.html">
+                            <button class="menu">Obtenir votre carte kiwi </button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="team.html">
+                            <button class="menu">L'équipe </button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="contact.html">
+                            <button class="menu">Nous contacter </button>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="body">
+            <br class="br">
+            <br>
+            <fieldset id="fieldset">
+                <legend>
+                    *Merci de remplir dûment le formulaire* 
+					<br>
+                    <div id="sous-titre">(lire avec un accent de cheminot marseillais) </div>
+                </legend>
+                <label for="nom">Nom : </label>
+                <input type="text" id="nom" value="Exemple : Trompe" onfocus="fx00()" onblur="fx01()"/>
+                <br>
+                <label for="prenom">Prénom : </label>
+                <input type="text" id="prenom" value="Exemple : Donald" onfocus="fx10()" onblur="fx11()"/>
+                <br>
+                <label for="date0">Période de votre abonnement : </label>
+                du <input type="date" id="date0" value="0001-01-01"/>
+                au <input type="date" id="date1" value="2012-12-12"/>
+                <br>
+                <div id="tableau-obt">
+                <label for="photo">Choisisez votre avatar : </label>
+                <br>
+                <fieldset class="tableaugalerie">
+                    <div id="galerie">
+                    <button  id="melanchon" class="bougale" onclick="gauche()"> ◄ </button>
+                    <img onclick="coucou()" class="vignette" id="vigne" src="404.jpg">
+                    <button id="fillon" class="bougale" onclick="droite()"> ► </button>
+                    <br>
+                    <span style="margin-left: 5%;" class ="st" id="lgdavt"> </span>
+                    </div>
+                </fieldset>
+                <br>
+                <label for="fun">Choisisez votre numéro de carte : </label>
+                <input type="number" id="fun" value="654321"/> <a id="marranti"></a>
+                <br>
+                <label for="email">Votre e-mail : </label>
+                <input type="text" id="email" value="Ex. : jaime@les.kiwis" onfocus="fx20()" onblur="fx21()"/>
+                <br>
+            </fieldset>
+            <br>
+            <i> Pour plus d'informations sur la manière dont sont traitées ces données et pour pouvoir les supprimer, veuillez consulter <a class="policiesl" href="policies.html"> notre politique de confidentialité</a>.</i>
+            <br>
+            <a href="carte.html">
+                <input type="submit" id="submit" value="Générer votre Carte Kiwi" onmousedown="fxp()" class="submit"/>
+            </a>
+            <br>
+        </div>
+        <div class="footer">
+            <table class="table">
+                <tr>
+                    <td>
+                        <a href="policies.html">
+                            <p class="p">Notre politique de confidentialité </p>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <p class="p">Haut de la page </p>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script type="text/javascript" src="../SCRIPT/kiwi.js"></script>
+        <script> window.onload = selection(); </script>
+        <audio id="audio">
+                <source src="..\MEDIAS\coucou.mp3" type="audio/mp3">
+                <source src="..\MEDIAS\coucou.ogg" type="audio/ogg">
+        </audio>
+    </body>
+</html>

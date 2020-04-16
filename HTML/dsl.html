@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Récupération carte kiwi </title>
+        <link rel="icon" type="image/png" href="..\MEDIAS\kiwi.png"/>
+        <link rel="stylesheet" type="text/css" href="..\STYLE\kiwi.css"/>
+    </head>
+    <body>
+        <div class="header" id="#">
+            <h1>
+                <img src="..\MEDIAS\kiwi.png" class="icon">Vous envoyer votre carte 
+            </h1>
+            <table>
+                <tr>
+                    <td>
+                        <a href="..\index.html">
+                            <button class="menu">Accueil </button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="obtention.html">
+                            <button class="menu">Obtenir votre carte kiwi </button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="team.html">
+                            <button class="menu">L'équipe </button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="contact.html">
+                            <button class="menu">Nous contacter </button>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="body">
+            <br class="br"/>
+            <p>
+                Nous voulions pouvoir vous envoyer votre Carte Kiwi à <a style="font-weight: bold" id="email1"></a>
+                et sommes bien contrits, car cette fonction est indisponible. En effet, pour ce faire, 
+                notre duo de choc aurait eu besoin d'utiliser le PHP 😕
+            </p>
+            <div id="video">
+                    <br>
+                <img src="../MEDIAS/sorry.gif">
+            </div>
+            <br>
+            <fieldset>
+                <marquee scrolldelay="1" scrollamount="3.5" width="auto" height="auto" direction="left" style="margin-bottom: -30px;">
+                <span style="font-family: arial; text-align:center;"> <span style="font-size: 15pt;">
+                Désolé, <a  style="font-weight: bold" id="prenom0"></a> 😭 On espère que ce petit texte qui bouge vous remontera 
+                le moral ! Non ? Bon bah tant pis... <br>  </span>  </marquee>
+            </fieldset>
+            <br>
+            <i> Pour plus d'informations sur la manière dont sont traitées ces données et pour pouvoir les supprimer, veuillez consulter <a class="policiesl" href="policies.html"> notre politique de confidentialité</a>.</i>
+        <br>
+        </div>
+        <div class="footer">
+            <table class="table">
+                <tr>
+                    <td>
+                        <a href="policies.html">
+                            <p class="p">Notre politique de confidentialité </p>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <p class="p">Haut de la page </p>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script>
+            document.getElementById("email1").innerHTML = localStorage.getItem("semail");
+        </script>
+        <script type="text/javascript" src="..\SCRIPT\kiwi.js"></script>
+        <script type="text/javascript" src="..\SCRIPT\greet2.js"></script>
+    </body>
+</html>

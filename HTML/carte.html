@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Votre carte </title>
+        <link rel="icon" type="image/png" href="..\MEDIAS\kiwi.png"/>
+        <link rel="stylesheet" type="text/css" href="..\STYLE\kiwi.css"/>
+    </head>
+    <body>
+        <div class="header" id="#">
+            <h1>
+                <img src="..\MEDIAS\kiwi.png" class="icon">Votre carte 
+            </h1>
+            <table>
+                <tr>
+                    <td>
+                        <a href="..\index.html">
+                            <button class="menu">Accueil </button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="obtention.html">
+                            <button class="menu">Obtenir une autre carte kiwi </button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="team.html">
+                            <button class="menu">L'équipe </button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="contact.html">
+                            <button class="menu">Nous contacter </button>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="body">
+            <audio id="audio">
+                <source src="..\MEDIAS\audio.mp3" type="audio/mp3">
+                <source src="..\MEDIAS\audio.ogg" type="audio/ogg">
+            </audio>
+            <br class="br">
+            <button type="submit" id="generator" onclick="fxhs()" class="submit">Appuyez ici pour que la magie opère ! </button>
+            <br>
+            <div id="cartek"></div>
+            <div id="photok">
+                <img id="photo0">
+            </div>
+            <div id="nomprenomk">
+                <table>
+                    <tr>
+                        <td>
+                            <p id="nom0" class="nomprenomk"></p>
+                        </td>
+                        <td>
+                            <p id="prenom0" class="nomprenomk"></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="funk">
+                <table>
+                    <tr>
+                        <td>
+                            <p style="font-family: kardust;" id="fun0" class="funk"></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="datek">
+                <table>
+                    <tr>
+                        <td>
+                            <p id="date00" class="datek"></p>
+                        </td>
+                        <td>
+                            <p id="date10" class="datek"></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="emailk">
+                <a href="dsl.html">
+                    <button type="submit" id="emailp" href="" class="submit">
+                        <table>
+                            <tr>
+                                <td>
+                                    <p class="emailk">Vous envoyer votre carte kiwi à </p>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <p class="emailk" id="email0"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </button>
+                </a>
+            </div>
+            <div id="carteh"></div>
+            <br>
+        </div>
+        <div class="footer">
+            <table class="table">
+                <tr>
+                    <td>
+                        <a href="policies.html">
+                            <p class="p">Notre politique de confidentialité </p>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <p class="p">Haut de la page </p>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script type="text/javascript" src="..\SCRIPT\carte.js"></script>
+        <script type="text/javascript" src="..\SCRIPT\kiwi.js"></script>
+    </body>
+</html>

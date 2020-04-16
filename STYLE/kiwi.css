@@ -1,0 +1,406 @@
+* {
+    font-family: Verdana;
+    font-size: 20px;
+    color: black;
+    background-image: linear-gradient (#DF8600, #FFB340);
+}
+
+@font-face {
+    font-family: "kardust";
+    src: url("../FONTS/kardust.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "photograph_signature";
+    src: url("../FONTS/photograph_signature.ttf");
+}
+
+.header {
+    background-color: #216624;
+    display: block;
+    font-size: 20px;
+    border-bottom: 2px solid #1E4720;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+h1 {
+    font-size: 80px;
+    color: #ffffff;
+    font-family: kardust;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    padding-right: 5px;
+    margin-bottom: -20px;
+}
+
+.menu {
+    box-shadow: 1.5px 1.5px #1960A6, -1.5px 1.5px #1960A6, 1.5px -1.5px #1960A6, -1.5px -1.5px #1960A6;
+    background-color: #216624;
+    border-radius: 6px;
+    border: 1.5px solid #ffffff;
+    display: inline-block;
+    font-size: 25px;
+    color: #FFEC00;
+    padding: 6px 24px;
+    text-shadow: 2px 2px #1960A6, -2px 2px #1960A6, 2px -2px #1960A6, -2px -2px #1960A6, 3px 3px #ffffff;
+    margin-right: 5px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.menu:hover {
+    text-decoration: underline 2px #FFEC00;
+}
+
+.menu:active {
+    background-color: #1E4720;
+    text-decoration: underline 2px #FFEC00;
+}
+
+.body {
+    display: block;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-bottom: -40px;
+    background-color: #EF7900;
+    padding-right: 38px;
+    padding-left: 38px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+fieldset {
+    margin-top: -10px;
+    box-shadow: 1.5px 1.5px #1960A6, -1.5px 1.5px #1960A6, 1.5px -1.5px #1960A6, -1.5px -1.5px #1960A6;
+    border-radius: 12px;
+    margin-bottom: -20px;
+    padding-left: 40px;
+}
+
+legend {
+    background-color: #216624;
+    border: 1px solid #ffffff;
+    box-shadow: 1.5px 1.5px #1960A6, -1.5px 1.5px #1960A6, 1.5px -1.5px #1960A6, -1.5px -1.5px #1960A6;
+    border-radius: 6px;
+    padding: 5px 30px;
+    font-family: kardust;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #000000;
+    background-color: #EF7900;
+    padding-left: 6px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-top: 20px;
+    color: #000000;
+}
+
+.tableauh {
+    width: 370px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    background-color: #EF7900;
+    color: #000000;
+	margin-top: -20px;
+	padding-bottom: 20px;
+}
+
+input[type=radio] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+    border-radius: 7.5px;
+    height: 15px;
+    width: 15px;
+    background-color: #EF7900;
+    border: 1px solid #000000;
+}
+
+input[type="radio"]:checked {
+	margin-left: 0px;
+	margin-right: 3px;
+	background-image: url(../MEDIAS/radio.png);
+	background-size: 9px 9px;
+	background-position: 2px 1.75px;
+	background-repeat: no-repeat;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+    height: 15px;
+    width: 15px;
+    background-color: #EF7900;
+    border: 1px solid #000000;
+}
+
+input[type="checkbox"]:checked {
+	margin-left: 0px;
+	margin-right: 3px;
+	background-image: url(../MEDIAS/check.png);
+	background-size: 9px 9px;
+	background-position: 1.5px 1.5px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    border: 1px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-radius: 6px;
+    background-color: #EF7900;
+    padding-left: 6px;
+    padding-bottom: 3px;
+    padding-top: -10px;
+    margin-top: -20px;
+    color: #000000;
+}
+
+.submit {
+    border: none;
+    border-bottom: 2px solid #000000;
+    background-color: #EF7900;
+    padding-left: 6px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-top: 20px;
+    color: #000000;
+    padding-left: 0px;
+    margin-left: 18px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+}
+
+.submit:hover {
+    margin-left: 13px;
+    margin-top: 19px;
+    border: 1px solid #000000;
+    border-bottom: 2px solid #000000;
+    margin-right: 0px;
+    border-radius: 6px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.submit:active {
+    margin-left: 13px;
+    margin-top: 19px;
+    border: 1px solid #000000;
+    border-bottom: 2px solid #000000;
+    margin-right: -2px;
+    border-radius: 6px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: #b55f12;
+}
+
+br {
+    margin-bottom: 30px;
+}
+
+.br {
+    margin-bottom: 200px;
+}
+
+.vignette {
+    width: 240px;
+    height: 280px;
+    margin-bottom: -25px;
+    border: 2px solid white;
+}
+
+.vignette1 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#cartek {
+    background-image: url(../MEDIAS/CarteKiwi.png);
+    background-position: url(../MEDIAS/CarteKiwi.png) no-repeat top left;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 500px;
+}
+
+#photok {
+    margin-left: 546px;
+    margin-top: -410px;
+    margin-bottom: 80px;
+}
+
+#photo0 {
+    width: 220px;
+    height: 292px;
+}
+
+#nomprenomk {
+    margin-left: 134px;
+    margin-top: -110px;
+}
+
+.nomprenomk {
+    font-family: photograph_signature;
+    font-size: 50px;
+    padding-right: 20px;
+}
+
+#funk {
+    margin-left: 300px;
+    margin-top: -330px;
+}
+
+.funk {
+    font-family: kardust;
+    font-size: 60px;
+}
+
+#datek {
+    margin-left: 392px;
+    margin-top: -55px;
+}
+
+.datek {
+    font-family: photograph_signature;
+    padding-right: 95px;
+}
+
+#emailk {
+    margin-left: 0px;
+    margin-top: 56px;
+}
+
+.emailk {
+    margin-top: -0px;
+    margin-bottom: -0px;
+}
+
+#carteh {
+    background-color: #EF7900;
+    width: 800px;
+    height: 600px;
+    margin-top: -598px;
+    margin-bottom: -60px;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p {
+    color: #ffffff;
+    text-decoration: underline 1px #ffffff;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+.footer {
+    margin-top: 30px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    background-color: #216624;
+    border-top: 2px solid #1E4720;
+    left: 0;
+    right: 0;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+#video {
+    text-align: center;
+}
+
+#sous-titre {
+    font-size: 25px;
+    font-family: kardust;
+    color: white;
+    text-align: center;
+}
+
+#tableau-obt {
+	margin-bottom: 40px;
+}
+
+#tableau-obt td {
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+#team {
+    text-align: center;
+}
+
+#titre2 {
+    text-align: center;
+}
+
+#teamtableau {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bougale {
+    background-color: #216624;
+    vertical-align: middle;
+    border-radius: 10px;
+    font-size: 35px;
+    color: white;
+}
+
+.bougale:hover{
+    background-color: #DF8600;
+}
+
+.st {
+    text-align: center;
+}
+
+.tableaugalerie {
+    width: 375px;
+    height: 337px;
+}
+
+#galerie {
+    text-align: center;
+    margin-left: -30px;
+}
+
+.bougaleclic {
+    background-color: #DF8600;
+    vertical-align: middle;
+    border-radius: 10px;
+    font-size: 35px;
+    color: white;
+}
+
+.p:hover {
+    font-weight: bold;
+}
+
+.policiesl:hover {
+    font-weight: bold;
+}
