@@ -1,9 +1,9 @@
 # Résumé du projet
 
 Ce site est un générateur de Carte Kiwi Web, qui fonctionne en JavaScript. Il a été conçu par Quentin ANIERE et Calixte PISTOLET
-dans le cadre de l'enseignement de spécialité NSI de première générale.
+dans le cadre de l'enseignement de spécialité NSI de première générale. 
 
-# Améloriations possibles
+# Améliorations possibles
 
   - Prendre en charge Chrome
   - Pouvoir ré-accéder à une carte précédemment générée
